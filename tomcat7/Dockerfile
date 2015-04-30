@@ -5,4 +5,4 @@ RUN apt-get update
 RUN apt-get install -y tomcat7
 RUN apt-get install -y emacs
 EXPOSE 80
-ENTRYPOINT ["/etc/init.d/tomcat7" "start"]
+ENTRYPOINT ["/etc/init.d/tomcat7","start"]
